@@ -1,0 +1,4 @@
+size: 3
+abc 2
+bcd 2
+def 1

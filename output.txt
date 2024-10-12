@@ -1,4 +1,13 @@
-size: 3
-abc 2
-bcd 2
-def 1
+size: 5
+2 mkd
+3 acd
+4 afg
+11 abc
+50 bcd
+------------------------
+size: 5
+2 mkd
+3 acd
+4 afg
+11 abc
+50 bcd

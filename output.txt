@@ -1,13 +1,2 @@
-size: 5
-2 mkd
-3 acd
-4 afg
-11 abc
-50 bcd
-------------------------
-size: 5
-2 mkd
-3 acd
-4 afg
-11 abc
-50 bcd
+3
+4

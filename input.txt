@@ -1,14 +1,1 @@
-10
-abc
-cde
-efg
-ghi
-abc
-cde
-abc
-cde
-ghi
-cde
-2
-abc
-cde
+12345

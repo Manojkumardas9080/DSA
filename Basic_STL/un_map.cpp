@@ -11,7 +11,7 @@ int main(){
   for(int i=0; i<n; ++i){
     string s;
     cin >>s;
-    m[s]++;
+    m[s]++;   
   }
   
   int q;

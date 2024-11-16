@@ -1,5 +1,5 @@
 size: 4
-ab 1
-bc 2
+ab 2
+bc 1
 cd 1
-ef 1
+ef 2

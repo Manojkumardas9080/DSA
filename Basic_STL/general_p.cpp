@@ -1,32 +1,33 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void print(map<int, string> &m){
-
-    m[2] = {"mkd"};
-    cout <<"size: "<< m.size()<<endl;
-    for(auto pr : m){
-      cout <<pr.first <<" "<<pr.second<<endl;
-    }
-
-}
 
 int main(){
-    map<int, string> m;
-    m[11] = {"abc"};
-    m[50] = {"bcd"};
-    m[3] = {"acd"};
 
-    m.insert({4, "afg"});
+  map<int, int> mp;
+  int n;
+  cin >>n;
 
-    print(m);
-    cout <<"------------------------"<<endl;
+  for(int i=0; i<n; i++){
+    int x;
+    cin >>x;
+    mp[x]++;
 
-    cout<<"size: "<<m.size()<<endl;
-    for(auto &pr :m){
-      cout<<pr.first<<" "<<pr.second<<endl;
-    }
-
+  }
   
-   return 0;
+  for(auto &pr : mp){
+    cout << pr.first <<" "<<pr.second << endl;
+  }
+  auto f = mp.find(1);
+  mp.erase(f);
+  
+cout <<"----------------------"<<endl;
+  for(auto &pr : mp){
+    cout <<pr.first <<" "<<pr.second<<endl;
+  }
+
+
+
+  return 0;
+
 }

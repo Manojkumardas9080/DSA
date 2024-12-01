@@ -1,7 +1,6 @@
-6
+5
 ab
 bc
 cd
-ef
 ab
-ef
+ab
